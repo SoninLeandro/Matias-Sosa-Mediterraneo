@@ -1,0 +1,195 @@
+#media-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    background-color: var(--background);
+}
+
+#media-main h2 {
+    padding-top: 30px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#media-wrapper {
+    padding-top: 2em;
+}
+
+#media-wrapper .inner {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+#media-wrapper .inner .media-img { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /*autofills the screen making it responsive*/
+    grid-gap: 5px;
+}
+
+    #media-wrapper .inner .media-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor {
+        margin: 0 auto;
+        padding-top: 3em;
+    }
+
+    @media screen and (max-width:1420px) {
+        #media-wrapper .inner {
+            width: 90%;
+        }        
+    }
+
+    @media screen and (max-width:811px) {
+        #media-wrapper .inner .media-img { 
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /*autofills the screen making it responsive*/
+            grid-gap: 7px;
+        }
+
+        .contenedor {
+            padding-top: 1em;
+        }
+    }
+
+
+/*Modal styles*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 3em;
+    width: 99%; /* So the "X" to close is visible */
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0, 0.97); /* Fallback color */
+    
+  }
+
+  .media-img {
+    cursor: pointer;
+  }
+
+  .close-modal {
+    color: #f7f7f5;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+    .close-modal:hover,
+    .close-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Carousel styles*/
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+    margin: 4px;
+    gap: 8px;
+    max-height: 650px; 
+    max-width: 830px;
+    transition: all 0.2s;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    padding: 4px;
+    min-width: 830px;
+    min-height: 550px;
+    color: white;
+    display: flex;
+    border-radius: 8px;
+    font-size: 48px;
+    transition: all 0.2s;
+    scroll-snap-align: start;
+}
+
+.card figure {
+    margin: 0px;
+    border-radius: 8px;
+    cursor: move;
+    cursor: grab;
+}
+
+
+.card figure:active {
+    cursor: grabbing;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 6px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #FF9950;
+    border-radius: 5px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #FF9950;
+} 
+
+
+
+@media screen and (max-width: 950px) {
+    .container {
+        max-width: 665px;
+        max-height: 520px;
+    }
+    .card {
+        min-width: 665px;
+        min-height: 440px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .container {
+        max-width: 530px;
+        max-height: 420px;
+    }
+    .card {
+        min-width: 530px;
+        min-height: 350px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .container {
+        max-width: 350px;
+        max-height: 275px;
+    }
+    .card {
+        min-width: 350px;
+        min-height: 240px;
+    }
+}
