@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Mediterráneo Güemes by Matias Sosa</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/parallax.css">
+        <link rel="stylesheet" href="assets/css/galeria.css" >
+        <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@200,400,700&display=swap" rel="stylesheet" />
+        <link href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,300&display=swap" rel="stylesheet" /> 
+
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+
+    <body>
+
+		<!-- Page Wrapper -->
+        <div id="page-wrapper-media">
+
+        <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html#banner">Mediterráneo Güemes</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <ul>
+                                    <li><a href="index.html#ubicacion">Ubicación</a></li>
+                                    <li><a href="index.html#unidades">Unidades</a></li>
+                                    <li><a href="index.html#recorrido-360">Recorrido 360</a></li>
+                                    <li><a href="index.html#contacto">Contacto</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+        <!-- Main -->
+            <main id="media-main">
+                
+                <section id="media-wrapper" class="wrapper style5">
+                    <div class="inner">
+                        <h2>Galería</h2>
+
+                        <div class="gallery">
+                            <img src="images/Images/Media/Edificio/DJI_0122edit.jpg" alt="Image 1" onclick="openModal('images/Images/Media/Edificio/DJI_0122edit.jpg')">
+                            <img src="images/Images/Media/Edificio/DJI_0130edit.jpg" alt="Image 2" onclick="openModal('images/Images/Media/Edificio/DJI_0130edit.jpg')">
+                            <img src="images/Images/Media/Edificio/DSC00248edit.jpg" alt="Image 3" onclick="openModal('images/Images/Media/Edificio/DSC00248edit.jpg')">
+                            <img src="images/Images/Media/Edificio/DSC00251edit.jpg" alt="Image 4" onclick="openModal('images/Images/Media/Edificio/DSC00251edit.jpg')">
+                            <img src="images/Images/Media/Edificio/DSC_8717.jpg" alt="Image 5" onclick="openModal('images/Images/Media/Edificio/DSC_8717.jpg')">
+                            <img src="images/Images/Media/Edificio/DSC_8719.jpg" alt="Image 6" onclick="openModal('images/Images/Media/Edificio/DSC_8719.jpg')">
+                            <img src="images/Images/Media/Edificio/DSC_8720.jpg" alt="Image 7" onclick="openModal('images/Images/Media/Edificio/DSC_8720.jpg')">
+                            <img src="images/Images/3-amb-portada.jpg" alt="Image 8" onclick="openModal('images/Images/3-amb-portada.jpg')">
+                            <img src="images/Images/2-amb-frente-portada.jpg" alt="Image 9" onclick="openModal('images/Images/2-amb-frente-portada.jpg')">
+                            <img src="images/Images/2-amb-contra-portada.jpg" alt="Image 10" onclick="openModal('images/Images/2-amb-contra-portada.jpg')">
+                        </div>
+
+                        <div id="myModal" class="modal">
+                            
+                            <div class="modal-content">
+                                <span class="close-modal" onclick="closeModal()">&times;</span>
+                                <button id="prevButton" class="nav-button" onclick="changeImage(-1)">&#8249;</button>
+                                <img id="modalImage" src="" alt="Modal Image">
+                                <button id="nextButton" class="nav-button" onclick="changeImage(1)">&#8250;</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+        <!-- Footer -->
+
+            <footer id="footer">
+                <div class="inner">
+                    <div class="footer-text" >
+                        <div>
+                            <h3>Encontranos en:</h3>
+                            <ul>
+                                <li style="padding: 0;" class="icon solid fa-phone-volume"><span class="label">Phone</span> +54 9 223 683 9665</li>
+                                <li style="padding: 0;">Catamarca 3050, Mar del Plata.</li>
+                            </ul>
+                        </div>
+                        <img src="./images/Logos/Imagotipo_Oscuro_Horizontal.png" style="max-height: 100px"/>
+                        <ul class="icons">
+                            <li><a href="https://www.twitter.com/matiasosabroker" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://www.facebook.com/matiassosabroker/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                            <li><a href="https://www.instagram.com/msestudioinmobiliario/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="https://www.linkedin.com/company/matiassosabroker" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="icons footer-info">
+                            <li><a href="mailto:info@matiassosa.com.ar" class="icon solid fa-envelope">
+                                <span class="label">Email</span> info@matiassosa.com.ar </a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=5492236839665&amp;text=Quisiera contactarme con ustedes" target="_blank" class="icon brands fa-whatsapp">
+                                <span class="label">Whatsapp</span> +5492236839665 </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="copyright">
+                    <li>&copy; Mediterráneo Güemes | Matias Sosa</li><li>By <a href="https://soninleandro.github.io/Portfolio-website/">Leandro Sonin</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/galeria.js"></script>
+    </body>
+
+</html>
+

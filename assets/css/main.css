@@ -1776,7 +1776,6 @@ input, select, textarea {
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			
-			display: inline-block;
 			padding-bottom: 1em;
 			position: relative;
 		}
@@ -3227,12 +3226,24 @@ input, select, textarea {
 /*Ubicacion*/
 
 #ubicacion {
-	padding-bottom: 4em;
+	padding: 0 0 4em 0;
 }
 
 	#ubicacion .major {
-		margin-bottom: 2em;
+		margin: 0 1em 2em 1em;
 	}
+
+		#ubicacion .major h1 {
+			font-size: 1.5em;
+			color: #1b1b1b;
+			padding-bottom: 1em;
+		}
+
+		@media screen and (max-width: 736px) {
+			#ubicacion .major h1 {
+				font-size: 1.2em;
+			}
+		}
 
 	#ubicacion .major ul {
 		display: inline-block;
@@ -3248,6 +3259,35 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
+	#ubicacion #descripcion {
+		text-align: justify;
+	}
+
+	#ubicacion .descripcion {
+		margin: 1em;
+	}
+
+	#ubicacion .descripcion p, .descripcion ul {
+		text-align: justify;
+	}
+		#ubicacion .descripcion ul li {
+			list-style: inside;
+		}
+
+
+	#ubicacion #servicios {
+		display: flex;
+		flex-wrap: wrap;
+		font-size: initial;
+	}
+		#ubicacion .descripcion #servicios li {
+			list-style: none;
+		} 	
+
+
+
+
+
 /* Unidades */
 
 #unidades {
@@ -3261,7 +3301,7 @@ padding-bottom: 0;
 		padding: 0 1em;
 	}
 
-	.unidades-titulo {
+	.titulo {
 		background-color: #f7f7f5;
 		color: #1b1b1b;
 		padding: 2em 0 0.5em 0;
@@ -3880,6 +3920,7 @@ padding-bottom: 0;
 			font-family: 'Clash Display', sans-serif;
 			font-weight: normal;
 			margin-top: 1em;
+			margin-bottom: 0.5em;
 			line-height: normal;
 		}
 
@@ -3957,10 +3998,15 @@ padding-bottom: 0;
 		#menu-inicio {
 			display: flex;
 			justify-content: center;
+			margin: 24px 0;
 		}
 
 		#menu-inicio ul {
 			display: inline-flex;
+		}
+
+		#menu-inicio ul li {
+			padding-left: 3em;
 		}
 
 		@media screen and (max-width: 736px) {
