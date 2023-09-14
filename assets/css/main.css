@@ -3290,6 +3290,46 @@ input, select, textarea {
 
 /* Unidades */
 
+.unidades-table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 2em auto;
+}
+
+.unidades-table th, td {
+	border: 1px solid #f7f7f5;
+	text-align: left;
+	padding: 8px;
+	color: #1b1b1b;
+}
+
+.unidades-table th {
+	background-color: #232323;
+	color: #f7f7f5;
+	font-weight: 400;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+
+.body-table tr:hover {
+	background-color: #a8a8a8;
+}
+
+@media screen and (max-width: 565px) {
+	.unidades-table th, td {
+		font-size: 0.7em;
+	}
+
+	.hide {
+		display: none;
+	}
+}
+
+
+
 #unidades {
 padding-bottom: 0;
 }
@@ -3378,6 +3418,7 @@ padding-bottom: 0;
 		font-weight: normal;
 		color: #232323;
 	}
+
 
 
 
@@ -3497,7 +3538,6 @@ padding-bottom: 0;
 			}
 	}
 
-
 	/*Spotlight Mobile*/
 
 
@@ -3571,9 +3611,9 @@ padding-bottom: 0;
 	height: auto;
 }
 
-/*Videos/ Recorrido 360 */
+/*Videos */
 
-#recorrido-360 {
+#videos {
 	padding-top: 0;
 }
 
@@ -4272,6 +4312,14 @@ padding-bottom: 0;
 			font-size: 0.7em;
 		}
 
+		#footer p {
+			font-size: 0.7em;
+			margin: auto;
+			line-height: initial;
+			padding: 1em 0;
+			color: rgba(255, 255, 255, 0.5);
+		}
+
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.6em;
@@ -4344,6 +4392,10 @@ padding-bottom: 0;
 			#footer .footer-text img {
 				float: none;
 				margin: 0;
+			}
+
+			#footer .website {
+				display: none;
 			}
 		}
 

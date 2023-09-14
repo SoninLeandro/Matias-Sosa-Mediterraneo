@@ -76,3 +76,8 @@
 		}
 
 })(jQuery);
+
+function openLink(deptoUrl) {
+	const url = 'https://www.matiassosa.com.ar';
+	window.open(url + deptoUrl, '_blank');
+}

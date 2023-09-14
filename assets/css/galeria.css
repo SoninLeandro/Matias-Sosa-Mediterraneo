@@ -1,4 +1,4 @@
-/* CSS for styling the modal */
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -9,8 +9,8 @@ body {
 }
 
 .gallery img {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     margin: 10px;
     cursor: pointer;
 }
@@ -61,6 +61,7 @@ body {
     max-width: 65%;
     max-height: 100%;
     margin: 1em auto;
+    border-radius: 5px;
 }
 
 .close-modal {

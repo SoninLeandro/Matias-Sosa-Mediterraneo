@@ -36,7 +36,7 @@ function changeImage(step) {
 function getImageIndex(imageSrc) {
     const images = document.querySelectorAll(".gallery img");
     for (let i = 0; i < images.length; i++) {
-        if (images[i].src === imageSrc) {
+        if (images[i].getAttribute("src") === imageSrc) {
             return i;
         }
     }
