@@ -3,9 +3,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#media-wrapper .inner {
+    max-width: 70em;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery img {
@@ -26,6 +31,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1;
+    overflow: scroll;
 }
 
 .modal-content {

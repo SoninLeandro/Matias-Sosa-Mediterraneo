@@ -3876,7 +3876,7 @@ padding-bottom: 0;
 				opacity: 0;
 			}
 
-			@media screen and (max-width: 545px) {
+			@media screen and (max-width: 675px) {
 				#header.alt h1, #header.alt nav {
 					opacity: 100;
 				}
@@ -4038,7 +4038,7 @@ padding-bottom: 0;
 		#menu-inicio {
 			display: flex;
 			justify-content: center;
-			margin: 24px 0;
+			margin: 24px 44px 24px 0;
 		}
 
 		#menu-inicio ul {
@@ -4087,7 +4087,7 @@ padding-bottom: 0;
 			}
 		}
 
-		@media screen and (max-width: 545px) {
+		@media screen and (max-width: 675px) {
 			#banner {
 				min-height: 800px;
 			}
@@ -4415,10 +4415,10 @@ padding-bottom: 0;
 /* Landing */
 
 	body.landing #page-wrapper-inicio  {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Exterior\ dia.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Exterior\ dia.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Exterior\ dia.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Exterior\ dia.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
