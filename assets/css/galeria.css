@@ -39,7 +39,7 @@ body {
     flex-direction: row;
     align-items: center;
     position: relative;
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .modal img {
-    max-width: 65%;
+    max-width: 80%;
     max-height: 100%;
     margin: 1em auto;
     border-radius: 5px;
