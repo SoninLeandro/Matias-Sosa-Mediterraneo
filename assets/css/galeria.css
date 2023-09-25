@@ -28,8 +28,6 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0);
-    justify-content: center;
-    align-items: center;
     z-index: 1;
     overflow: scroll;
 }
@@ -40,7 +38,15 @@ body {
     align-items: center;
     position: relative;
     max-width: 100%;
+   /* max-height: 100%;*/
     margin: auto;
+}
+
+.modal img {
+    max-width: 80%;
+    max-height: 80%;
+    margin: 1em auto;
+    border-radius: 5px;
 }
 
 #myModal .nav-button {
@@ -61,13 +67,6 @@ body {
 
 #nextButton {
     right: 0;
-}
-
-.modal img {
-    max-width: 80%;
-    max-height: 100%;
-    margin: 1em auto;
-    border-radius: 5px;
 }
 
 .close-modal {
