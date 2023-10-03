@@ -93,18 +93,23 @@ body {
 
 @media screen and (max-width: 1216px) {
     .close-modal {
-        top: 20%;
+        top: 15%;
     }
 }
 
 @media screen and (max-width: 816px) {
-    .close-modal {
-        top: 30%;
+    .modal-container{
+        width: 90%;
     }
-}
+    .close-modal {
+        top: 20%;
+    }
 
 @media screen and (max-width: 516px) {
+    .modal-container {
+        width: 100%;
+    }
     .close-modal {
-        top: 35%;
+        top: 25%;
     }
 }
