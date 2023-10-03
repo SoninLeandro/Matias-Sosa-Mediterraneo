@@ -3602,7 +3602,7 @@ padding-bottom: 0;
 /*Video*/
 
 .video {
-	width: 460px;
+	max-width: 460px;
 	margin: 0 auto;
 }
 
