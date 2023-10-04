@@ -4414,8 +4414,8 @@ padding-bottom: 0;
 
 /* Landing */
 
-	body.landing #page-wrapper-inicio  {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
+	body.landing #page-wrapper-inicio .background-video {
+		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/Exterior\ dia.jpg");
@@ -4423,9 +4423,9 @@ padding-bottom: 0;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		padding-top: 0;
+		padding-top: 0;*/
 
-		/*width: 100vw;
+		width: 100vw;
   		height: 100vh;
   		object-fit: cover;
 		position: fixed;
@@ -4433,49 +4433,12 @@ padding-bottom: 0;
 		right: 0;
 		top: 0;
   		bottom: 0;
-  		z-index: -1;*/
+  		z-index: -1;
+		filter: brightness(70%);
 	}
-
-	body.landing #page-wrapper-final {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Exterior\ noche.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Exterior\ noche.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Exterior\ noche.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Exterior\ noche.jpg");
-		background-attachment: fixed;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		padding-top: 0;
-	}*/
 
 	body.landing #footer {
-		background-color: #1e1e1e;
-	}
-
-	body.is-mobile.landing #page-wrapper {
-		background: none;
-	}
-
-	body.is-mobile.landing #page-wrapper-inicio,
-	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/foto-dron-dia.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/foto-dron-dia.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/foto-dron-dia.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/Media/Edificio/foto-dron-dia.jpg");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
-	body.is-mobile.landing #page-wrapper-final,
-	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/foto-dron-noche.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/foto-dron-noche.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/foto-dron-noche.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Images/foto-dron-noche.jpg");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
+		background-color: #232323;
 	}
 
 	body.is-mobile.landing #footer {
