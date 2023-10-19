@@ -105,6 +105,7 @@ body {
     .close-modal {
         top: 20%;
     }
+}
 
 @media screen and (max-width: 516px) {
     .modal-container {

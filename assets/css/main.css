@@ -3329,10 +3329,10 @@ tr:nth-child(even) {
 }
 
 
-
+/*
 #unidades {
 padding-bottom: 0;
-}
+}*/
 
 	#unidades > p {
 		color: #1b1b1b;
@@ -3609,6 +3609,12 @@ padding-bottom: 0;
 .story-video {
 	max-width: 100%;
 	height: auto;
+}
+
+@media screen and (min-width: 465px) {
+    .mobile {
+        display: none;
+    }
 }
 
 /*Videos */
